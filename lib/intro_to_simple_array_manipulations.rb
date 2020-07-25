@@ -13,5 +13,6 @@ def using_unshift(array, string)
   end
 
 def pop_witrh_args(array)
+  array.pop
   array.pop(2)
 end
