@@ -10,6 +10,6 @@ def using_unshift(array, string)
 
   def using_pop(array)
     continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-    continents.pop
+    return continents.pop
     continents.delete_at(6)
   end
